@@ -21,8 +21,15 @@ else:
 
 
 
-def sayHello():
-    print("Hello World")
+def sayHello(name="Python"):
+    # print("Hello World")
+    return "Hello {}".format(name)
 
-sayHello()
-sayHello()
+sentence6 = sayHello()
+print(sentence6)
+
+sentence7 = sayHello(name)
+print(sentence7)
+
+sentence8 = sayHello("Matthew")
+print(sentence8)

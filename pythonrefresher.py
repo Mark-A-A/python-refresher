@@ -35,7 +35,7 @@ sentence8 = sayHello("Matthew")
 print(sentence8)
 
 
-
+# Exercise
 def trippleprint (str):
 
     string="{}{}{}".format(str, str, str)
@@ -65,6 +65,7 @@ while len(dogs) > 0:
     print(dogs)
     del(dogs[0])
 
+# Exercise
 numbers = [76, 83, 16, 69, 52, 78, 10, 77, 45, 52, 32, 17, 58, 54, 79, 72, 55, 50, 81, 74, 45, 33, 38, 10, 40, 44, 70, 81, 79, 28, 83, 41,
 14, 16, 27, 38, 20, 84, 24, 50, 59, 71, 1, 13, 56, 91, 29, 54, 65, 23, 60, 57, 13, 39, 58, 94, 94, 42, 46, 58, 59, 29, 69, 60, 83, 9, 83, 5, 64, 70, 55, 89, 67, 89, 70, 8, 90, 17, 48, 17, 94, 18,
 98, 72, 96, 26, 13, 7, 58, 67, 38, 48, 43, 98, 65, 8, 74, 44, 92]
@@ -72,3 +73,24 @@ numbers = [76, 83, 16, 69, 52, 78, 10, 77, 45, 52, 32, 17, 58, 54, 79, 72, 55, 5
 for num in numbers:
     if num > 90:
         print(num)
+
+
+# Good Ol Objects are Dictionaries in Python
+
+words = ["PoGo","Spange","Lie-Fi"]
+definitions = ["Slang for Pokemon Go",
+                "To collect spare change, either from couches, passerbys on the street or any numerous other ways and means",
+                "When your phone or tablet indicates that you are connected to a wireless network, however you are still unable to load webpages or use any internet services with your device"]
+
+cooldictionary = {}
+index = 0
+
+for word in words:
+
+    wordToAdd = word
+    defintitionToAdd = definitions[int(index)]
+    # print(defintitionToAdd)
+    dictionary1[wordToAdd] = defintitionToAdd
+    index += 1
+
+print(dictionary1)

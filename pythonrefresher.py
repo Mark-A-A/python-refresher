@@ -90,7 +90,27 @@ for word in words:
     wordToAdd = word
     defintitionToAdd = definitions[int(index)]
     # print(defintitionToAdd)
-    dictionary1[wordToAdd] = defintitionToAdd
+    cooldictionary[wordToAdd] = defintitionToAdd
     index += 1
 
-print(dictionary1)
+print(cooldictionary)
+
+
+# Classes
+class Car:
+    def __init__(self,year, make, model):
+        self.year = year
+        self.make = make
+        self.model = model
+
+    def age(self):
+        # self.age = 2017 - int(self.year)
+        return 2017 - int(self.year)
+
+
+myCar = Car(2008, "Nissan", "Altima")
+print(myCar.year)
+print(myCar.make)
+print(myCar.model)
+print(myCar.age())
+# print(myCar.age)

@@ -48,3 +48,9 @@ trippleprint("hello")
 
 # Arrays are Python Lists
 shoes = ["Spizikes", "Air Force 1","Curry 2","Melo 5"]
+print(shoes)
+shoes.insert(0, "Jordan 11")
+
+print(shoes)
+del(shoes[1])
+print(shoes)

@@ -57,5 +57,10 @@ print(shoes)
 
 
 dogs = ["Fido","Sonny", "Cloud", "Maggie", "Ralph"]
+print(dogs)
 for dog in dogs:
     print(dog)
+
+while len(dogs) > 0:
+    print(dogs)
+    del(dogs[0])

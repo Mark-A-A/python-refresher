@@ -54,3 +54,8 @@ shoes.insert(0, "Jordan 11")
 print(shoes)
 del(shoes[1])
 print(shoes)
+
+
+dogs = ["Fido","Sonny", "Cloud", "Maggie", "Ralph"]
+for dog in dogs:
+    print(dog)

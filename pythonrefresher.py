@@ -45,3 +45,6 @@ trippleprint("hello")
     # print(string)
     # print(string)
     # print(string)
+
+# Arrays are Python Lists
+shoes = ["Spizikes", "Air Force 1","Curry 2","Melo 5"]

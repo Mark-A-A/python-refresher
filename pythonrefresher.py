@@ -33,3 +33,15 @@ print(sentence7)
 
 sentence8 = sayHello("Matthew")
 print(sentence8)
+
+
+
+def trippleprint (str):
+
+    string="{}{}{}".format(str, str, str)
+    print(string)
+
+trippleprint("hello")
+    # print(string)
+    # print(string)
+    # print(string)
